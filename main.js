@@ -1,6 +1,6 @@
 let express = require('express');
 let app = express();
-let port = process.env.PORT || 8888
+let port = process.env.PORT || 8888 //很重要
 let user_router = require('./routers/main_router.js')
 
 app.get("/", (req, res) => {
